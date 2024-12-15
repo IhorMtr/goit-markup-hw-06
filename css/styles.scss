@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 ul, ol {
@@ -211,7 +212,7 @@ header {
 .preview-section {
   padding: 188px 0 188px;
   background-image: linear-gradient(rgba($grey, 0.7), rgba($grey, 0.7)),
-  url("../images/main_picture.jpg");
+  url("../images/main_picture_1x.jpg");
   max-width: 1440px;
   margin: 0 auto;
   background-size: cover;
@@ -226,6 +227,13 @@ header {
     h1 {
       margin-bottom: 48px;
     }
+  }
+}
+
+@media (resolution: 192dpi) {
+  .preview-section {
+    background-image: linear-gradient(rgba($grey, 0.7), rgba($grey, 0.7)),
+    url("../images/main_picture_2x.jpg");
   }
 }
 
