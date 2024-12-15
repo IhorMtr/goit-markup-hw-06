@@ -200,7 +200,7 @@ header address a {
   margin-bottom: 48px;
 }
 
-@media (resolution: 192dpi) {
+@media (min-resolution: 192dpi) {
   .preview-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/main_picture_2x.jpg");
   }

@@ -230,7 +230,7 @@ header {
   }
 }
 
-@media (resolution: 192dpi) {
+@media (min-resolution: 192dpi) {
   .preview-section {
     background-image: linear-gradient(rgba($grey, 0.7), rgba($grey, 0.7)),
     url("../images/main_picture_2x.jpg");
