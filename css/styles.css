@@ -81,6 +81,10 @@ p {
   overflow: visible;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 @media (min-width: 320px) {
   /* START OF BASE VALUES  */
   .section {
@@ -109,9 +113,6 @@ p {
   }
   .list-social-item-link-svg {
     fill: #f4f4fd;
-  }
-  body.no-scroll {
-    overflow: hidden;
   }
   /* END OF GLOBAL STYLES --- START OF HEADER */
   .header {

@@ -94,6 +94,10 @@ p {
   overflow: visible;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 @media (min-width: 320px) {
   /* START OF BASE VALUES  */
 
@@ -128,10 +132,6 @@ p {
 
   .list-social-item-link-svg {
     fill: $cloud;
-  }
-
-  body.no-scroll {
-    overflow: hidden;
   }
 
   /* END OF GLOBAL STYLES --- START OF HEADER */
