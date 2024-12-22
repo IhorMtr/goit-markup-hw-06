@@ -130,6 +130,10 @@ p {
     fill: $cloud;
   }
 
+  body.no-scroll {
+    overflow: hidden;
+  }
+
   /* END OF GLOBAL STYLES --- START OF HEADER */
 
   .header {
